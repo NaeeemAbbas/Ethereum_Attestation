@@ -5,7 +5,7 @@ import { ref } from 'vue';
 <template>
   <div class="flex items-center justify-center min-h-screen  mx-auto p-4 max-w-6xl">
     <div class="flex flex-wrap justify-center  items-center space-x-8">
-      <!-- Left Onchain Section -->
+     
       <div class="text-left">
         <h2 class="text-xl font-bold text-gray-800">Onchain</h2>
         <ul class="mt-2 space-y-1 text-gray-600">
@@ -15,7 +15,7 @@ import { ref } from 'vue';
           <li>So much more</li>
         </ul>
       </div>
-      <!-- Center Video Section -->
+    
       <div class="relative">
         <video src="/src//assets/gif.mp4" loop autoplay class="w-150 h-auto"></video>
         <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">

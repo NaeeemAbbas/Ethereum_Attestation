@@ -1,4 +1,5 @@
 <script setup>
+import logo2 from '../assets/logo2.png'
 import { ref } from "vue";
 // Import the specific Lucide icons you need for this component
 // Ensure you are importing from 'lucide-vue-next' for Vue 3 projects
@@ -29,7 +30,7 @@ const selectTab = (tabName) => {
 <template>
   <header class="container mx-auto px-4 py-6 flex justify-between items-center relative">
     <div class="flex items-center space-x-2">
-      <span class="font-bold font-serif text-2xl flex items-center cursor-pointer "> <img src="/src/assets/logo2.png" class="h-8" alt="">EAS</span>
+      <span class="font-bold font-serif text-2xl flex items-center cursor-pointer "> <img :src="logo2" class="h-8" alt="">EAS</span>
     </div>
 
     <nav class="hidden md:flex space-x-8 text-lg font-medium">

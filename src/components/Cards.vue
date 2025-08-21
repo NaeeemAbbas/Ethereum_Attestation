@@ -1,46 +1,51 @@
 <script setup>
 import { ref, computed } from 'vue'; // Import computed
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.jpg'
+import img3 from '../assets/img3.jpg'
+import img4 from '../assets/img4.jpg'
+import img5 from '../assets/img5.jpg'
 
 // Dummy data for content cards
 const allContentCards = ref([ // Renamed to avoid conflict
   {
     type: 'video',
-    thumbnail: '/src/assets/Img2.jpg', // Dummy image for videos
+    thumbnail: img2, // Dummy image for videos
     title: 'Ethereum Attestation Service: Unlocking Decentralized Identity',
     author: 'Bankless',
     role: 'Podcaster',
   },
   {
     type: 'video',
-    thumbnail: '/src/assets/Img3.jpg', // Dummy image for videos
+    thumbnail: img3, // Dummy image for videos
     title: 'Ethereum Attestation Service (EAS) Explainer',
     author: 'Vaibhav Saini',
     role: 'Co-Founder, OpenSea Pro',
   },
   {
     type: 'video',
-    thumbnail: '/src/assets/Img4.jpg',
+    thumbnail: img4,
     title: 'ETHGlobal Paris - Speedrun EAS',
     author: 'Bryce Patrick',
     role: 'Core Team at EAS',
   },
   {
     type: 'video',
-    thumbnail: '/src/assets/Img5.jpg', // Dummy image for videos
+    thumbnail: img5, // Dummy image for videos
     title: 'Crafting the New Web of Trust & Digital Credibility',
     author: 'Chaskin OnChain',
     role: 'Contributor',
   },
   {
     type: 'article',
-    thumbnail: '/src/assets/Img1.png', // Placeholder image for articles
+    thumbnail: img1, // Placeholder image for articles
     title: 'Supercharging Account Abstraction with Attestations',
     author: 'Bryce Patrick',
     role: 'Core Team at EAS',
   },
   {
     type: 'article',
-    thumbnail: '/src/assets/Img1.png', // Placeholder image for articles
+    thumbnail: img1, // Placeholder image for articles
     title: 'ELIS Ethereum Attestation Service (EAS) - Why You Should Care',
     author: 'Ryan Yi',
     role: 'Coinbase Ventures',
