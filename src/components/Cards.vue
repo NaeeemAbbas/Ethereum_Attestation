@@ -38,14 +38,14 @@ const allContentCards = ref([ // Renamed to avoid conflict
   },
   {
     type: 'article',
-    thumbnail: img1, // Placeholder image for articles
+    thumbnail: img2, // Placeholder image for articles
     title: 'Supercharging Account Abstraction with Attestations',
     author: 'Bryce Patrick',
     role: 'Core Team at EAS',
   },
   {
     type: 'article',
-    thumbnail: img1, // Placeholder image for articles
+    thumbnail: img2, // Placeholder image for articles
     title: 'ELIS Ethereum Attestation Service (EAS) - Why You Should Care',
     author: 'Ryan Yi',
     role: 'Coinbase Ventures',
