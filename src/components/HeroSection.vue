@@ -1,6 +1,5 @@
 <script setup>
-import { Github } from 'lucide-vue';
-import { GithubIcon } from 'lucide-vue-next';
+import { Github } from 'lucide-vue-next';
 
 // No specific reactive data needed for this static content component
 </script>
@@ -29,7 +28,7 @@ import { GithubIcon } from 'lucide-vue-next';
         <button
           class="cursor-pointer flex items-center justify-center px-8 py-4 bg-white border border-gray-300 rounded-lg shadow-sm text-lg font-medium text-gray-900 hover:bg-gray-50 transition-colors duration-200"
         >
-          <GithubIcon class="h-6 w-6 mr-3" />
+          <Github class="h-6 w-6 mr-3" />
           Welcome to EAS
         </button>
         <button
