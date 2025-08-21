@@ -1,33 +1,38 @@
 <script setup>
 import { ref } from 'vue';
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.jpg'
+import img3 from '../assets/img3.jpg'
+import img4 from '../assets/img4.jpg'
+
 
 const teamMembers = ref([
   {
     name: 'Leonid Beder',
     role: 'Lead Solidity & Security Engineer',
     description: 'Smart contracts engineer and auditor, security and OPSEC expert, ex-Machine Learning and Cryptography.',
-    avatar: '/src/assets/Img1.png', // Placeholder for Bender-like avatar
+    avatar: img1, // Placeholder for Bender-like avatar
     ringColor: 'border-blue-300', // Corresponding ring color
   },
   {
     name: 'Bryce Patrick',
     role: 'Protocol Growth & Adoption',
     description: 'Public goods builder & product person focusing on growth and adoption of EAS.',
-    avatar: '/src/assets/Img2.jpg', // Placeholder for Bryce's avatar
+    avatar: 'img2', // Placeholder for Bryce's avatar
     ringColor: 'border-purple-300', // Corresponding ring color
   },
   {
     name: 'Steve Dakh',
     role: 'Lead Full Stack Engineer',
     description: 'Founding team member of Ethereum, Rushwallet, and KryptoKit.',
-    avatar: '/src/assets/Img3.jpg', // Placeholder for Steve's avatar
+    avatar: img3, // Placeholder for Steve's avatar
     ringColor: 'border-teal-300', // Corresponding ring color
   },
   {
     name: 'Dino Mark',
     role: 'Builder & Systems Designer',
     description: 'Early Ethereum contributor and systems designer for EAS.',
-    avatar: '/src/assets/Img4.jpg', // Placeholder for Unicorn avatar
+    avatar: img4, // Placeholder for Unicorn avatar
     ringColor: 'border-orange-300', // Corresponding ring color
   },
 ]);
